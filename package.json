@@ -1,0 +1,31 @@
+{
+  "name": "easy-cors-proxy",
+  "version": "1.0.0",
+  "description": "A simple proxy server that adds CORS headers to requests",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node -r dotenv/config ./src/index"
+  },
+  "author": {
+    "name": "Shaun O'Neill",
+    "url": "https://www.shaunoneill.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-personal:realshaunoneill/easy-cors-proxy.git"
+  },
+  "license": "GPL-3.0",
+  "keywords": [
+    "proxy",
+    "cors"
+  ],
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
