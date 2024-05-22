@@ -4,8 +4,7 @@
   "description": "A simple proxy server that adds CORS headers to requests",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node -r dotenv/config ./src/index"
+    "start": "node -r dotenv/config ./src/index"
   },
   "author": {
     "name": "Shaun O'Neill",
@@ -23,9 +22,7 @@
   "dependencies": {
     "axios": "^1.6.8",
     "cors": "^2.8.5",
-    "express": "^4.19.2"
-  },
-  "devDependencies": {
+    "express": "^4.19.2",
     "dotenv": "^16.4.5"
   }
 }

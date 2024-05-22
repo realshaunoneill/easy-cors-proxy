@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  easy-cors-proxy:
+    image: realshaunoneill/easy-cors-proxy:latest
+    container_name: easy-cors-proxy
+    ports:
+      - 8080:8080
+    environment:
+      - PORT=8080
+      - WHITELISTED_URLS=
